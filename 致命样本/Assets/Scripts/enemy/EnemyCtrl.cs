@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class EnemyCtrl : MonoBehaviour {
     public float HP = 100;
+    [HideInInspector]
+    public SwordMove _sword;
+    public BulletMove _bullet;
     Vector3 _dir;//子弹射入方向
 	// Use this for initialization
 	void Start () {
@@ -22,7 +25,7 @@ public class EnemyCtrl : MonoBehaviour {
             HP -= _bullet._damage;
             StartCoroutine(HitBack(_bullet._hitback));
             _dir = other.transform.forward;
-            Debug.Log("triggerhit");
+            
             //Destroy(other.gameObject);
             
         }
@@ -30,16 +33,27 @@ public class EnemyCtrl : MonoBehaviour {
 
     private void OnCollisionEnter(Collision other)
     {
-        BulletMove _bullet = other.transform.GetComponent<BulletMove>();
+
+        _sword = other.transform.GetComponent<SwordMove>();
+        _bullet = other.transform.GetComponent<BulletMove>();
         if (_bullet != null && other.gameObject.tag == "Player")
         {
-            HP -= _bullet._damage;
-            StartCoroutine(HitBack(_bullet._hitback));
+            HP -= _bullet._damage;           
             _dir = other.transform.forward;
+            StartCoroutine(HitBack(_bullet._hitback));
             Destroy(other.gameObject);
             
-            Debug.Log("collisionhit");
+            
         }
+        if (_sword!=null && other.gameObject.tag == "Player")
+        {
+            HP -= _sword._damage;
+            _dir = new Vector3((transform.position - other.transform.position).x, 0, (transform.position - other.transform.position).z).normalized;
+            StartCoroutine(HitBack(_sword._hitback));
+            _sword.GetComponent<BoxCollider>().isTrigger = true;
+            
+        }
+
     }
 
     IEnumerator HitBack(float hitback)

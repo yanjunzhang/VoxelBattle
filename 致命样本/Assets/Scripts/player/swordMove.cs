@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class swordMove : MonoBehaviour {
+public class SwordMove : MonoBehaviour {
 
     public string _swordName;
     float _range;
@@ -18,12 +18,13 @@ public class swordMove : MonoBehaviour {
     int _canCrossWall;
 	GameObject _startEffect;
 	GameObject _endEffect;
+    BoxCollider _boxCollider;
     // Use this for initialization
     void Start () {
-		
-        
-        
-	}
+        //_boxCollider=this.gameObject.GetComponent
+
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -60,9 +61,7 @@ public class swordMove : MonoBehaviour {
 				}else if (item.name==_hitEffectName) {
 					_endEffect = item;
 				}
-				if (_startEffect!=""&&_endEffect!="") {
-					break;
-				}
+				
 			}
 		}
 
@@ -77,11 +76,9 @@ public class swordMove : MonoBehaviour {
 
 	}
 	public void StartAct(){
-		gameObject.GetComponent<BoxCollider> ().isTrigger = false;
-		Debug.Log ("start");
+		this.gameObject.GetComponent<BoxCollider> ().isTrigger = false;
 	}
-	public void Stop(){
-		gameObject.GetComponent<BoxCollider> ().isTrigger = true;
-		Debug.Log ("stop");
+	public void StopAct(){
+		this.gameObject.GetComponent<BoxCollider> ().isTrigger = true;
 	}
 }
