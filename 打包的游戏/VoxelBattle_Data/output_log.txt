@@ -1,0 +1,49 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     4011 MB
+    Driver:   22.21.13.8165
+Begin MonoManager ReloadAssembly
+Platform assembly: H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\Elixis.dll (this message is harmless)
+Loading H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\Elixis.dll into Unity Child Domain
+Platform assembly: H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\ES2.dll (this message is harmless)
+Loading H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\ES2.dll into Unity Child Domain
+- Completed reload, in  0.023 seconds
+Platform assembly: H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 0.806145 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 291c -> priority: 1 
+  Thread -> id: 2920 -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.889997 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 575.
+Total: 7.055134 ms (FindLiveObjects: 0.051967 ms CreateObjectMapping: 0.037853 ms MarkObjects: 0.670771 ms  DeleteObjects: 6.293258 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.275237 ms
+Platform assembly: H:\U3DWork\VoxelWar\打包的游戏\VoxelBattle_Data\Managed\System.Xml.dll (this message is harmless)
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 10694.
+Total: 2.092513 ms (FindLiveObjects: 0.560420 ms CreateObjectMapping: 0.106502 ms MarkObjects: 1.402173 ms  DeleteObjects: 0.022776 ms)
+
