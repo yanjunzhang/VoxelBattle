@@ -5,7 +5,7 @@ DEMO
 **进入MainLoad场景可以体验游戏，也可下载Windows的包进行试玩。由于是学习性质的，很多地方存在瑕疵，请不要介意**
 
 **unity版本为5.6.0**
-
+视频 链接：https://v.youku.com/v_show/id_XMjg4MDYzMDI4NA==.html
 2017/7/8更新：
 
 - 修改了地图，为低模卡通风格城镇，并增加了遮挡剔除。
